@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  margin: 0px;
+  top: 0;
+  width: auto;
+  font-family: 'Amatic SC', cursive;
+}
+
+.txt {
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-family: 'Amatic SC', cursive;
+}
+
+.title1 {
+  background-color: white;
+  color: black;
+  font-size: 350%;
+}
+.title2 {
+  background-color: white;
+  color: black;
+  font-size: 150%;
+}
+
+.particle {
+  z-index: -1;
+}
+
+.li {
+  text-align: center;
+  list-style-type: none;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 150%;
+  background-image: white;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
