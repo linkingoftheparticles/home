@@ -1,8 +1,7 @@
 import React from 'react';
 import {Component} from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { Container, Jumbotron, Button, Form, FormGroup, Label, Input, FormText, Col } from 'reactstrap';
+import { Button, Form, FormGroup, Input, Col } from 'reactstrap';
 import fire from './fire';
 import Particles from 'react-particles-js';
 
@@ -53,8 +52,8 @@ class App extends Component {
     return (
       <div>
         <div class="App">
-        <h1 className="display-3" class="title1">What is your story?</h1>
-        <h1 className="display-5" class="title2">Add a sentence to the end of this story. Add your own story.</h1>
+        <h1 className="display-3" class="title1">What was the last thing that made you smiled?</h1>
+        <h1 className="display-5" class="title2">Describe it in a sentence starting with the last word of the last sentence.</h1>
         <Form onSubmit={this.logText}>
           <FormGroup row>
             <Col sm={11}>
