@@ -66,3 +66,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## April Fools' Update
+
+We've added a new feature: if you run `npm run surprise`, your app will be automatically deployed to a random server on the internet! (Just kidding... Happy April Fools'!)
